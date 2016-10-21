@@ -1,0 +1,488 @@
+/*文字列表1*/
+.listTitle{
+	width: 16rem;
+	background-color: #fff;
+	border-bottom: 0.025rem solid #e3e3e3;
+	border-top: 0.025rem solid #e3e3e3;
+	text-align: left;
+}
+.listTitle li {
+	width: 15.25rem;
+	padding: 0.75rem 0;
+	font-size: 0.7rem;
+	margin-left: 0.75rem;
+	border-bottom: 0.025rem solid #e3e3e3;
+}
+.listTitle li  p{
+	display: block;
+	font-size: 1.2rem;
+	margin-top: 0.2rem;
+	color: #4D4D4D;
+}
+.listTitle li+li span{
+	float: left;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	height: 0.7rem;
+	margin-right: 0.75rem;
+	
+}
+.listTitle li+li b{
+	float: right;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	height: 0.7rem;
+	margin-right: 0.75rem;
+	font-weight: normal;
+	text-align: right;
+	
+}
+.listTitle li:last-child {
+	border-bottom: none;
+}
+.listInfo {
+	width: 16rem;
+	background-color: #fff;
+	border-bottom: 0.025rem solid #e3e3e3;
+	border-top: 0.025rem solid #e3e3e3;
+	font-size: 0.7rem;
+	text-align: left;
+}
+.listInfo li {
+	width: 15.25rem;
+	padding: 0.75rem 0;
+	font-size: 0.7rem;
+	margin-left: 0.75rem;
+	border-bottom: 0.025rem solid #e3e3e3;
+}
+.listInfo li span{
+	padding-right: 0.75rem;
+	display: block;
+	color: #4D4D4D;
+}
+.listInfo li p{
+	padding-right: 0.75rem;
+	color: #808080;
+	font-size: 0.6rem;
+	margin-top: 0.5rem;
+}
+.listInfo li:last-child{
+	border-bottom: none;
+	
+}
+/*菜单按钮列表*/
+.navList {
+	width: 16rem;
+	background-color: #fff;
+	border-bottom: 0.025rem solid #e3e3e3;
+	border-top: 0.025rem solid #e3e3e3;
+}
+.navList li {
+	width: 15.25rem;
+	min-height: 2.15rem;
+	margin-left: 0.75rem;
+	border-bottom: 0.025rem solid #e3e3e3;
+}
+
+.navList li:last-child {
+	border-bottom: none;
+}
+
+.navList span {
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+}
+.nlIcon1 {
+	width: 1.45rem;
+	height: 1.45rem;
+	margin-top: 0.35rem;
+	margin-right: 0.75rem;
+	float: left;
+}
+
+.nlIcon1 img {
+	width: 100%;
+}
+
+.nlword1 {
+	float: left;
+	margin-top: 0.73rem;
+}
+
+.nlword2 {
+	float: right;
+	margin-top: 0.73rem;
+	margin-right: 0.6rem;
+}
+
+.nlIcon2 {
+	width: 1.2rem;
+	height: 1.2rem;
+	float: right;
+	margin-top: 0.475rem;
+	margin-right: 0.5rem;
+}
+
+.nlIcon2 img {
+	width: 100%;
+}
+
+.nlIconjt {
+	width: 0.35rem;
+	height: 0.6rem;
+	float: right;
+	margin-top: 0.8rem;
+	margin-right: 0.5rem;
+	background-image: url(../images/list_icon.png);
+	background-repeat: no-repeat;
+	background-size: 0.35rem 0.6rem;
+}
+
+.nlIcondot {
+	float: right;
+	margin-top: 0.8rem;
+	margin-right: 0.4rem;
+}
+
+.nlIconword {
+	height: 1rem;
+	line-height: 1rem!important;
+	padding: 0 0.75rem;
+	color: #fff;
+	background-color: #ef4c02;
+	border-radius: 0.6rem;
+	float: right;
+	margin-top: 0.55rem;
+	margin-right: 0.4rem;
+}
+/*头像*/
+.highTx{
+	 height: 3.65rem !important;
+}
+.highTx span:nth-child(1){
+	width:2.4rem;
+	height: 2.4rem;
+	float: left;
+	margin-top: 0.6rem;
+}
+.highTx span:nth-child(1) img{
+	width:2.4rem;
+	height: 2.4rem;
+	border-radius:1.2rem;
+	border: 1px solid #E6E6E6;
+}
+
+.highTx span:nth-child(2){
+	float: left;
+	margin-top: 0.73rem;
+	text-align: left;
+	line-height: 1.25rem;
+	margin-left: 0.75rem;
+}
+.highTx .nlIconjt{
+	margin-top: 1.5rem !important;
+}
+/*消息*/
+
+.messageBox {
+	width: 14.4rem;
+	margin: 0 auto;
+	background-color: #fff;
+	display: block;
+	position: relative;
+	padding: 0.4rem;
+	height:auto;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    text-align: left;
+}
+
+.mgSpecial {
+	width: 14rem;
+	padding-left: 0.5rem;
+}
+
+.messageNormle span:nth-child(1) {
+	font-size: 0.7rem;
+	line-height: 0.85rem;
+	display: block;
+}
+
+.messageNormle span:nth-child(2) {
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	display: block;
+}
+
+.messageNormle span:nth-child(3) {
+	font-size: 0.6rem;
+	line-height: 0.86rem;
+	height: 1.72rem;
+	overflow: hidden;
+	display: block;
+}
+
+.messageNormle span:nth-child(4) {
+	position: absolute;
+	right: 0.5rem;
+	top: 0.65rem;
+}
+
+.unOra {
+	background-image: none !important;
+}
+
+.messageNormle .appear {
+	height: auto !important;
+}
+
+.messageNormle .mgRadio{
+    -webkit-flex: 1; /* Safari 6.1+ */
+    flex: 1;
+    width: 0.6rem;
+    height: 0.6rem;
+    right: 0.2rem;
+}
+.messageImg {
+	width: 14.4rem;
+	padding-bottom:0.2rem;
+}
+.messageImg img{ 
+	width: 100%;
+}
+.mgImgSp{
+	width: 13.1rem !important; 
+}
+
+/*小圆点*/
+
+.orgDotBig {
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+	background-image: url(../images/org_dotbig.png);
+	background-size: 0.5rem 0.5rem;
+	background-repeat: no-repeat;
+}
+
+.orgDotSmall {
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	background-image: url(../images/org_dotbig.png);
+	background-size: 0.3rem 0.3rem;
+	background-repeat: no-repeat;
+}
+
+/*删除*/
+.dustbinIcon {
+	background-image: url(../images/dustbin.png);
+	background-repeat: no-repeat;
+	background-size:  0.8rem 0.8rem;
+	background-position:top;
+	width:0.8rem;
+	height:0.8rem;
+	line-height: 0;
+	font-size:0;
+	display: block;
+	cursor: pointer;
+}
+
+/*圆点选项框*/
+.orgRadioOn {
+	background-image: url(../images/org_redio.png);
+	background-repeat: no-repeat;
+	background-size:  0.6rem 1.2rem;
+	background-position:top;
+	width:0.8rem;
+	height:0.6rem;
+	line-height: 0;
+	font-size:0;
+	display: block;
+	cursor: pointer;
+}
+
+.orgRadio {
+	background-image: url(../images/org_redio.png);
+	background-repeat: no-repeat;
+	background-size: 0.6rem 1.2rem;
+	background-position: bottom;
+	width:0.8rem;
+	height:0.6rem;
+	line-height: 0;
+	font-size:0;
+	display: block;
+	cursor: pointer;
+}
+
+/*优惠券*/
+.couponsBox {
+	width: 15.2rem;
+	margin: 0 auto;
+	min-height: 4rem;
+	background-color: #fff;
+	display: block;
+	position: relative;
+}
+
+.couponsUp {
+	height: 3.75rem;
+}
+
+.couponsUp span {
+	position: absolute;
+}
+
+.couponsUp span:nth-child(1) {
+	font-size: 0.5rem;
+	width: 2.6rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	left: 0.45rem;
+	top: 1.4rem;
+	text-align: right;
+	color: #b3b3b3;
+}
+
+.couponsUp span:nth-child(1) b {
+	height: 0.85rem;
+	font-weight: normal;
+	font-size: 0.85rem;
+	line-height: 1.2rem;
+}
+
+.couponsUp span:nth-child(2) {
+	font-size: 1.8rem;
+	width: 3rem;
+	height: 0.85rem;
+	line-height: 0.85rem;
+	left: 3.1rem;
+	top: 1.8rem;
+}
+
+.couponsUp span:nth-child(3) {
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	width: 8rem;
+	text-align: right;
+	right: 0.5rem;
+	top: 1.85rem;
+}
+
+.couponsBgOg {
+	width: 15.2rem;
+	background-size: 15.2rem 0.4rem;
+	background-image: url(../images/coupons_bg1.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.couponsBgGy {
+	width: 15.2rem;
+	background-size: 15.2rem 0.4rem;
+	background-image: url(../images/coupons_bg2.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.couponsBox dl {
+	background-image: url(../images/coupons_dot.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #fff;
+}
+
+.couponsBox dt {
+	font-size: 0.5rem;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	text-align: right;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+.couponsBox dt.cpjt01{
+	background-repeat: no-repeat;
+	background-position: center 0.6rem;
+	background-image: url(../images/list_icon2.png);
+}
+
+.couponsBox dd {
+	font-size: 0.7rem;
+	line-height: 0.75rem;
+	padding-bottom: 0.6rem;
+	padding-left: 0.5rem;
+	display: none;
+}
+
+.couponsBox dd p {
+	font-size: 0.5rem;
+	color: #808080;
+}
+
+.couponsBox .cpjt02 {
+	background-image: url(../images/list_icon3.png) !important;
+}
+
+/*银行*/
+.bankBox{
+	width: 15.2rem;
+	height: 6rem;
+	background-color: #f24c02;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	position: relative;
+}
+.bankBox li{
+	color:#fff;
+	position: absolute;
+}
+.bankBox li:nth-child(1){
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	top: 0.75rem;
+	left: 0.7rem;
+	vertical-align: middle;
+	line-height: 1.4rem;
+}
+.bankBox li:nth-child(1) img{
+	width: 1.2rem;
+	height: 1.2rem;
+	vertical-align: middle;
+}
+.bankBox li:nth-child(2){
+	width:12rem;
+	height:0.5rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	top:0.75rem;
+	left: 2.7rem;
+	text-align: left;
+}
+.bankBox li:nth-child(2) b{
+	color: #f6a377;
+	border: 1px solid #f6a377;
+	font-weight: normal;
+	margin-left: 0.2rem;
+}
+.bankBox li:nth-child(3){
+	width:12rem;
+	height:0.5rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	top:1.65rem;
+	left: 2.7rem;
+	text-align: left;
+}
+.bankBox li:nth-child(4){
+	width:12rem;
+	height:0.5rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	bottom:0.7rem;
+	left: 2.7rem;
+	text-align: left;
+}
+

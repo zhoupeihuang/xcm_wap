@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>圆形进度条</title>
+		<style type="text/css">
+			body {
+				background: #dfdfdf;
+				font-family: "Microsoft Yahei", Arial;
+			}
+			
+			.r_out {
+				width: 200px;
+				height: 200px;
+				border: 2px solid #FC5903;
+				background: #FC5903;
+				box-shadow: 3px 3px 5px #bfbfbf;
+				-webkit-box-shadow: 3px 3px 5px #bfbfbf;
+				-moz-box-shadow: 3px 3px 5px #bfbfbf;
+				-ms-box-shadow: 3px 3px 5px #bfbfbf;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-ms_border-radius: 50%;
+				display: inline-block;
+				margin-right: 50px;
+				margin-bottom: 80px;
+				position: relative;
+			}
+			
+			.r_out p {
+				position: absolute;
+				bottom: -50px;
+				color: #000;
+				text-align: center;
+				margin: 0 auto;
+				width: 100%;
+				font-size: 16px;
+				line-height: 1.5;
+				font-weight: bold;
+			}
+			
+			.r_in {
+				width: 184px;
+				height: 184px;
+				border: 8px solid #fff;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-ms_border-radius: 50%;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			.r_c {
+				width: 184px;
+				height: 184px;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				height: 0;
+			}
+			
+			.c1 {
+				background: #DD4017;
+			}
+			
+			.c2 {
+				background: #DD4017;
+			}
+			
+			.c3 {
+				background: #DD4017;
+			}
+			
+			.r_num {
+				color: #fff;
+				font-size: 40px;
+				line-height: 1.5;
+				position: absolute;
+				top: 50%;
+				margin-top: -25px;
+				text-align: center;
+				width: 100%;
+			}
+			.r_day {
+				color: #fff;
+				font-size: 16px;
+				line-height: 1.5;
+				position: absolute;
+				top: 86%;
+				margin-top: -25px;
+				text-align: center;
+				width: 100%;
+			}
+			.r_title {
+				color: #fff;
+			    font-size: 12px;
+			    line-height: 1.5;
+			    position: absolute;
+			    top: 30%;
+			    margin-top: -25px;
+			    text-align: center;
+			    width: 100%;
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".c1").animate({
+					height: "70%"
+				}, 1000);
+				$(".c2").animate({
+					height: "90%"
+				}, 1000)
+				$(".c3").animate({
+					height: "12%"
+				}, 1000)
+			})
+		</script>
+	</head>
+
+	<body>
+		<div class="robin_circle">
+			<div class="r_out">
+				<div class="r_in">
+					<div class="r_title">预期年化收益</div>
+					<div class="r_c c1"></div>
+					<div class="r_num">70%</div>
+					<div class="r_day">期限60天</div>
+				</div>
+				<p>Tony Wu Region</p>
+			</div>
+			<div class="r_out">
+				<div class="r_in">
+					<div class="r_c c2"></div>
+					<div class="r_num">50%</div>
+				</div>
+				<p>Sandy Chu Region</p>
+			</div>
+			<div class="r_out">
+				<div class="r_in">
+					<div class="r_c c3"></div>
+					<div class="r_num">12.88%</div>
+				</div>
+				<p>Simon Yuen Region</p>
+			</div>
+		</div>
+	</body>
+
+</html>

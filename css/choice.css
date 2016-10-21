@@ -1,0 +1,198 @@
+.maxBoxInner{
+	background-color:white;
+	padding-top:0.75rem;
+}
+.rateAndDeadline{
+	background-color:white;
+	height:3.5rem;
+	position: relative;
+}
+.rateAndDeadline span:nth-child(1){
+	text-align: left;
+	font-size:0.6rem;
+	position: absolute;
+	top:0rem;
+	left:0.625rem;
+	width:11.75rem;
+}
+.rateAndDeadline span:nth-child(1) .yearRate>b{
+	display: block;
+	float:left;
+	font-size:1.75rem;
+	font-weight: normal;
+	color:#fd5903;
+}
+.rateAndDeadline span:nth-child(1) .yearRate b em{
+	font-size:1.1rem;
+}
+.rateAndDeadline span:nth-child(1) .yearRate .rateTip{
+	float: left;
+}
+.rateAndDeadline span:nth-child(2){
+	font-size:0.6rem;
+	position: absolute;
+	top:0rem;
+	right:0.625rem;
+	text-align: right;
+	border-left:1px solid #d7d7d7;
+	width:3.5rem;
+}
+.rateAndDeadline span:nth-child(2) div:nth-child(1){
+	font-size:0.9rem;
+	margin-bottom:0.3rem;
+	line-height: 2rem;
+}
+/*jindu*/
+.jindu{
+	width:14.5rem;
+	margin:1rem auto;
+	border-bottom: 1px solid #d7d7d7;
+}
+.jindu .total{
+	font-size: 0.6rem;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+.jindu .rateMoney {
+	margin:0.6rem auto;
+}
+.jindu .rateMoney div:nth-child(1){
+	float:left;
+	font-size: 0.6rem;
+}
+.jindu .rateMoney div:nth-child(2){
+	float:right;
+	font-size: 0.6rem;
+}
+.description{
+	width:14.5rem;
+	margin:0px auto;
+	font-size:0.6rem;
+	text-align: left;
+}
+.description p{
+	font-size:0.6rem;
+	text-align: left;
+	color:#808080;
+}
+
+.maxBoxInner .navList{
+	background-color:#fc5a02;
+	color:white;
+}
+.maxBoxInner .navList .nlIconjt {
+	background-image: url(../images/list_icon_white.png);
+}
+.bottomWrapper{
+	position: fixed;
+	bottom: 0px;
+	background-color:#f0f0f0;
+}
+.forPlusMinus{
+	width:14.5rem;
+	margin:0.3rem auto;
+	text-align: right;
+	font-size: 0.5rem;
+}
+.mb335{
+	margin-bottom: 3.35rem;
+}
+.investTitle{
+	background-color:white;
+	width:16rem;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	font-size:0.7rem;
+	text-align: left;
+	text-indent: 0.75rem;
+	color:#4d4d4d;
+}
+.investTableTitle{
+	background-color: #f0f0f0;
+	height: 1.6rem;
+	width:16rem;
+}
+.investTableTitle div{
+	font-size:0.6rem;
+	line-height: 1.6rem;
+}
+.investTableTitle div:nth-child(1){
+	float:left;
+	margin-left:0.75rem;
+}
+.investTableTitle div:nth-child(2){
+	float:right;
+	margin-right: 0.75rem;
+}
+.investTable{
+	background-color:white;
+}
+.investTableRow{
+	margin-left:0.75rem;
+	border-bottom: 0.025rem solid #d7d7d7;
+}
+.investTable .investTableRow:last-child{
+	border-bottom: none;
+}
+.investTableRow div:nth-child(1){
+	float:left;
+	text-align: left;
+}
+.investTableRow div:nth-child(2){
+	float:right;
+	text-align: right;
+	margin-right: 0.75rem;
+}
+.investTableRow div span:nth-child(1){
+	font-size: 0.6rem;
+	display: block;
+	margin-top:0.6rem;
+	margin-bottom: 0.5rem;
+	color:#4d4d4d;
+}
+.investTableRow div span:nth-child(2){
+	font-size:0.5rem;
+	display: block;
+	margin-bottom: 0.6rem;
+}
+.investTableRow div:nth-child(2) span:nth-child(2) i{
+	width:0.6rem;
+	height: 0.6rem;
+	background-repeat: no-repeat;
+	background-size:0.6rem 0.6rem;
+	display: inline-block;
+	margin-bottom: -0.1rem;
+	margin-right: 0.3rem;
+}
+.investTableRow div:nth-child(2) span:nth-child(2) i.diannao{
+	background-image: url(../images/choice/diannao.png);
+}
+.investTableRow div:nth-child(2) span:nth-child(2) i.weixin{
+	background-image: url(../images/choice/weixin.png);
+}
+.investTableRow div:nth-child(2) span:nth-child(2) i.shouji{
+	background-image: url(../images/choice/shouji.png);
+}
+.investTableRow div:nth-child(2) span:nth-child(2) i.zidong{
+	background-image: url(../images/choice/zidong.png);
+}
+
+.pjDescription{
+	margin-left:0.75rem;
+	border-bottom: 0.025rem solid #d7d7d7;
+	font-size:0.6rem;	
+}
+.pjDescription:last-child{
+	border-bottom: none;
+}
+.pjTitle{
+	font-size:0.6rem;
+	line-height: 2.1rem;
+	text-align: left;
+}
+.pjContent{
+	margin-right: 0.75rem;
+	font-size:0.6rem;
+	margin-bottom: 0.75rem;
+	text-align: left;
+}

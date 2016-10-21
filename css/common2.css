@@ -1,0 +1,9 @@
+.progress{
+	height:0.2rem;
+	background-color:#CCCCCC;
+}
+.progress-inner{
+	height: 0.2rem;
+	background-color:#fd5903;
+	width:80%;
+}

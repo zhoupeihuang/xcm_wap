@@ -1,0 +1,91 @@
+.borderBottomNone{
+	border-bottom: none !important;
+}
+.lr-wrapper{
+	background-color: white;
+}
+.lr-wrapper input{
+	border: none;
+	font-size: 0.7rem;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	width:14.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.register-wrapper{
+	width:16rem;
+	background-color: white;
+}
+.register-wrapper dl{
+	width: 16rem;
+	border-top:1px solid #d7d7d7;	
+	border-bottom: 1px solid #d7d7d7;	
+}
+.register-wrapper dl dd{
+	width:15rem;
+	margin-left: 1rem;
+	border-bottom: 1px solid #d7d7d7;
+}
+.register-wrapper dl dd .inputA{
+	font-size: 0.7rem;
+	display: block;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	width:15rem;
+	border: none;
+}
+.register-wrapper dl dd .inputB{
+	font-size: 0.7rem;
+	display: block;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	width:10.7rem;
+	float: left;
+	border: none;
+}
+.register-wrapper dl dd .inputC{
+	font-size: 0.7rem;
+	display: block;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	width:4rem;
+	float: left;
+	border: none;
+	background-color:white;
+	text-align: center;
+}
+.register-wrapper dl dd .img-wrapper{
+	display: block;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	width:4.3rem;
+	float: left;
+	border: none;
+	background-color:white;
+}
+.register-wrapper dl dd .img-wrapper .verifyImg{
+	height: 2.15rem;
+	width:4.3rem;
+	margin-top:-0.15rem;
+}
+.leftInfo{
+	margin: 0.6rem 1rem;
+	width: 14rem;
+	color: #B3B3B3;
+	font-size: 0.6rem;
+	text-align: left;
+}
+.rightInfo{
+	margin-top:0.6rem;
+	margin-right: 0.7rem;
+	margin-left: 0.7rem;
+	width: 14.6rem;
+	color: #B3B3B3;
+	font-size: 0.6rem;
+	text-align: right;
+}
+.mt28rem{
+	margin-top: 2.8rem;
+}

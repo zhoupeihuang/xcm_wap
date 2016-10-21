@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="bookmark" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<title>模板页·如新增插件 请自行添加</title>
+		<link rel="stylesheet" href="../css/GE.css">
+		<!--清零 and 公用-->
+		<link rel="stylesheet" href="../css/control1.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/control2.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/control3.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/common1.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/common2.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/common3.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/animate.css" />
+		<!-- 公用的 动画库-->
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="../js/moblieUtil.js"></script>
+		<!---icheck--->
+		<link href="../icheck/skins/flat/blue.css" rel="stylesheet">
+		<script src="../icheck/icheck.min.js"></script>
+		<!---icheck--->
+		<!--swipe-->
+		<link rel="stylesheet" href="../css/idangerous.swiper.css">
+		<script src="../js/idangerous.swiper.min.js"></script>
+		<!--swipe-->
+		<!--showBo-->
+		<link rel="stylesheet" href="../css/idangerous.swiper.css">
+		<script src="../js/idangerous.swiper.min.js"></script>
+		<!--showBo-->
+	</head>
+
+	<body class="grayBg">
+			<!---正文开始--->
+			<div class="baseNav3">
+				<ul>
+					<li class="bmActiveOge">默认</li>
+					<li>
+						期限
+					</li>
+					<li>
+						期限
+					</li>
+				</ul>
+			</div>
+		<div class="maxBox cf">
+			<div class="baseMain3">
+				<ul>
+					<li class=" cf">
+						<div class="ppMain">
+							aaa
+						</div>
+						<div class="ppMain">
+							aaa
+						</div>
+						<div class="ppMain">
+							aaa
+						</div>
+						<div class="ppMain">
+							aaa
+						</div>
+						<div class="ppMain">
+							aaa
+						</div>
+						<div class="ppMain">
+							aaa
+						</div>
+					</li>
+					<li class=" cf">
+						<div class="ppMain">
+							bbb
+						</div>
+						<div class="ppMain">
+							bbb
+						</div>
+						<div class="ppMain">
+							bbb
+						</div>
+						<div class="ppMain">
+							bbb
+						</div>
+						<div class="ppMain">
+							bbb
+						</div>
+						<div class="ppMain">
+							bbb
+						</div>
+					</li>
+					<li class="cf">
+						<div class="ppMain">
+							ccc
+						</div>
+						<div class="ppMain">
+							ccc
+						</div>
+						<div class="ppMain">
+							ccc
+						</div>
+						<div class="ppMain">
+							ccc
+						</div>
+						<div class="ppMain">
+							ccc
+						</div>
+						<div class="ppMain">
+							ccc
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--选项卡的JS BEGIN-->
+			<script type="text/javascript">
+				$(function(){
+					$(".baseNav3 ul li").mousedown(function(){
+						var indexs = $(this).index();
+						//导航切换样式 且删除所有的排序样式
+						$(this).addClass("bmActiveOge").siblings().removeClass("bmActiveOge");
+						if(indexs==0){
+							$(".orderBox").removeClass("orderDesc orderAsc");
+						}else{
+							$(".orderBox").trigger("mousedown");
+						}
+						//打开当前 关闭其他选项卡
+						$(".baseMain3 ul li").eq(indexs).show().siblings().hide();
+					});
+				})
+			</script>
+			<!--选项卡的JS END-->
+			<!---正文结束--->
+		</div>
+	</body>
+
+</html>

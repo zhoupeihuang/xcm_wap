@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="bookmark" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<title>模板页·如新增插件 请自行添加</title>
+		<link rel="stylesheet" href="../../css/GE.css"><!--清零 and 公用-->
+		<link rel="stylesheet" href="../../css/control3.css"><!-- 公用 按钮 文本框  下拉 标识 进度条-->			
+		<link rel="stylesheet" href="../../css/common1.css"><!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../../css/common2.css"><!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../../css/common3.css"><!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../../css/public1.css" /><!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../../css/public2.css" /><!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../../css/public3.css" /><!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../../css/animate.css" /><!-- 公用的 动画库-->
+		<script type="text/javascript" src="../../js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="../../js/moblieUtil.js"></script>
+		<!---icheck--->
+		<link href="../../icheck/skins/flat/blue.css" rel="stylesheet">
+		<script src="../../icheck/icheck.min.js"></script>
+		<!---icheck--->
+		<!--swipe-->
+		<link rel="stylesheet" href="../../css/idangerous.swiper.css">
+		<script src="../../js/idangerous.swiper.min.js"></script>
+		<!--swipe-->
+		<!--showBo-->
+		<link rel="stylesheet" href="../../css/showBoRem.css">
+		<script src="../../js/showBoRem.js"></script>
+		<!--showBo-->
+		<link rel="stylesheet" href="../../css/login.register.css"/>
+	</head>
+	<body class="grayBg">
+		
+
+		<div class="baseNav xuanfu">
+				<ul>
+					<li><img src="../../images/left3.png"/></li>
+					<li></li>
+					<li>使用验证码登录</li>
+					<li></li>
+					<li></li>
+				</ul>
+		</div>
+		<div class="myErrorInfo">
+			验证码有误，请重新输入
+		</div>		
+		<div class="maxBox mt28rem cf">
+			<!---正文开始--->
+			<div class="register-wrapper mt24">
+				<dl>
+					<dd class="borderBottomNone">
+						<input class="inputA" type="tel" placeholder="请输入手机号码登录" />
+					</dd>
+				</dl>
+			</div>
+			<div class="register-wrapper mt24">
+				<dl>
+					<dd class="cf">
+						<input class="inputB" type="text" placeholder="请输入图形验证码" />
+						<span class="img-wrapper"><img class="verifyImg" src="../../images/verify.jpg"/></span>
+					</dd>
+					<dd class="cf borderBottomNone">
+						<input class="inputB" type="text" placeholder="请输入验证码" />
+						<input class="inputC oraFont1" type="button"  value="获取验证码"/>
+					</dd>					
+				</dl>
+			</div>
+			<div class="rightInfo">
+				收不到短信？<a id="receive-phone">接听电话</a>获取验证码
+			</div>		
+			<input type="button" class="baseBtn disBtn mt24" value="登录" />
+			<!---正文结束--->
+		</div>
+		<script type="text/javascript">
+			$("#receive-phone").click(function(){
+
+				Showbo.Msg.confirm('系统将拨打您的电话，播报语言验证码','温馨提示','取消','确定',function(flag){
+		            if(flag=='yes'){
+		                //取消
+		                
+		            }else if(flag=='no'){
+		                //确定
+		            }
+		        });	        
+			});
+		</script>
+	</body>
+</html>

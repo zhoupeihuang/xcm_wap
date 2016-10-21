@@ -1,0 +1,119 @@
+body {
+	background: #dfdfdf;
+	font-family: "Microsoft Yahei", Arial;
+}
+
+.r_out {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #fff;
+	background: #FC5903;
+	box-shadow: 3px 3px 5px #fff;
+	-webkit-box-shadow: 3px 3px 5px #fff;
+	-moz-box-shadow: 3px 3px 5px #fff;
+	-ms-box-shadow: 3px 3px 5px #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms_border-radius: 50%;
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+.r_out p {
+	position: absolute;
+	bottom: -50px;
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+.r_in {
+	width: 184px;
+	height: 184px;
+	border: 8px solid #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms_border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.r_c {
+	width: 184px;
+	height: 184px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0;
+}
+
+.c1 {
+	background: #DD4017;
+}
+
+.c2 {
+	background: #DD4017;
+}
+
+.c3 {
+	background: #DD4017;
+}
+
+.r_num {
+	color: #fff;
+	font-size: 40px;
+	line-height: 1.5;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	text-align: center;
+	width: 100%;
+}
+
+.r_day {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	position: absolute;
+	top: 86%;
+	margin-top: -25px;
+	text-align: center;
+	width: 100%;
+}
+
+.r_title {
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	position: absolute;
+	top: 30%;
+	margin-top: -25px;
+	text-align: center;
+	width: 100%;
+	z-index: 8;
+}
+
+.myRadio {
+	width: 204px;
+	height: 204px;
+	border-radius: 110px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.radioBoxs {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px red solid;
+}

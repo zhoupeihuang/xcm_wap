@@ -1,0 +1,88 @@
+.phoneBox{
+	width:16rem;
+	height: 3.75rem;
+	background-color:#fa5a02;
+	position: relative;
+}
+.phoneBox div:nth-child(1){
+	width:2.25rem;
+	height: 2.25rem;
+	position: absolute;
+	top:0.75rem;
+	left:3.5rem;
+	background:url(../images/more/icon-phone.png) no-repeat;
+	background-size: 2.25rem 2.25rem;
+}
+.phoneBox div:nth-child(2){
+	color:white;
+	text-align: left;
+	position: absolute;
+	top:0.9rem;
+	left:6.5rem;
+}
+.phoneBox div:nth-child(2) span:nth-child(1){
+	font-size:0.85rem;
+	display: block;
+}
+.phoneBox div:nth-child(2) span:nth-child(2){
+	font-size: 0.6rem;
+	display: block;
+}
+.titleBox{
+	height: 2.25rem;
+	width:16rem;
+	background-color: white;
+}
+.titleBox div{
+	float:left;
+}
+.titleBox div span{
+	display: block;
+	width:0.8rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	line-height: 0.8rem;
+	background-color:#f25d00;
+	color:white;
+	position:absolute;
+	top:0.5rem;
+	left:5.8rem;
+	font-size: 0.5rem;
+}
+.titleBox div:nth-child(1){
+	position: relative;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width:7.975rem;
+	font-size: 0.7rem;
+}
+.titleBox div:nth-child(1) i{
+	display: inline-block;
+	width:0.9rem;
+	height: 0.9rem;
+	background:url(../images/more/zaixiankefu.png) no-repeat;
+	background-size: 0.9rem 0.9rem;
+	margin-right: 0.4rem;
+	margin-bottom:-0.2rem;
+}
+.titleBox div:nth-child(2){
+	margin-top:0.55rem;
+	width:0.025rem;
+	background-color:#d7d7d7;
+	height: 1.25rem;
+}
+.titleBox div:nth-child(3){
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width:7.975rem;	
+	font-size: 0.7rem;
+}
+.titleBox div:nth-child(3) i{
+	display: inline-block;
+	width:0.9rem;
+	height: 0.9rem;
+	background:url(../images/more/weixin.png) no-repeat;
+	background-size: 0.9rem 0.9rem;
+	margin-right: 0.4rem;
+	margin-bottom:-0.2rem;	
+}

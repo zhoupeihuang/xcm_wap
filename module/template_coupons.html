@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="bookmark" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="../images/favicon.ico" mce_href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<title>模板页·如新增插件 请自行添加</title>
+		<link rel="stylesheet" href="../css/GE.css">
+		<!--清零 and 公用-->
+		<link rel="stylesheet" href="../css/common1.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/common2.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/common3.css">
+		<!-- 公用 按钮 文本框  下拉 标识 进度条-->
+		<link rel="stylesheet" href="../css/public1.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/public2.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/public3.css" />
+		<!-- 公用 的模块 标的列表-->
+		<link rel="stylesheet" href="../css/animate.css" />
+		<!-- 公用的 动画库-->
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="../js/moblieUtil.js"></script>
+		<!---icheck--->
+		<link href="../icheck/skins/flat/blue.css" rel="stylesheet">
+		<script src="../icheck/icheck.min.js"></script>
+		<!---icheck--->
+		<!--swipe-->
+		<link rel="stylesheet" href="../css/idangerous.swiper.css">
+		<script src="../js/idangerous.swiper.min.js"></script>
+		<!--swipe-->
+		<!--showBo-->
+		<link rel="stylesheet" href="../css/idangerous.swiper.css">
+		<script src="../js/idangerous.swiper.min.js"></script>
+		<!--showBo-->
+	</head>
+
+	<body class="grayBg">
+		<div class="maxBox">
+			<!---正文开始--->
+			<p class="title">优惠券未过期</p>
+			<div class="couponsBox couponsBgOg mt16 cf">
+				<div class="couponsUp">
+					<span>投资抵用券<b class="oraFont1">￥</b></span>
+					<span class="oraFont1">26</span>
+					<span class="oraFont1">2016-07-07到期</span>
+				</div>
+				<dl id="firstpane">
+					<dt class="cpjt01">查看使用规则</dt>
+					<dd class="cpRule">
+						<p>1. 起投金额：300元</p>
+						<p>2. 过担保公司担保、债权回购、担保人连带保证等方</p>
+						<p>3. 项目发生的风险进行全额赔付以保障投资人的利益</p>
+						<p>4. 机构为其推荐的每一个项目，按照一定比例向</p>
+					</dd>
+				</dl>
+			</div>
+			<p class="title">优惠券已使用</p>
+			<div class="couponsBox couponsBgGy mt16">
+				<div class="couponsUp">
+					<span>投资抵用券<b class="blaFont3">￥</b></span>
+					<span class="blaFont3">26</span>
+					<span class="blaFont3">2016-07-07到期</span>
+				</div>
+				<dl id="firstpane">
+					<dt class="cpjt01">查看使用规则</dt>
+					<dd class="cpRule">
+						<p>1. 起投金额：300元</p>
+						<p>2. 过担保公司担保、债权回购、担保人连带保证等方</p>
+						<p>3. 项目发生的风险进行全额赔付以保障投资人的利益</p>
+						<p>4. 机构为其推荐的每一个项目，按照一定比例向</p>
+					</dd>
+				</dl>
+			</div>
+			<p class="title">优惠券已过期</p>
+			<div class="couponsBox couponsBgGy mt16">
+				<div class="couponsUp">
+					<span>投资抵用券<b class="blaFont3">￥</b></span>
+					<span class="blaFont3">26</span>
+					<span class="oraFont1">2016-07-07到期</span>
+				</div>
+				<dl id="firstpane">
+					<dt class="cpjt01">查看使用规则</dt>
+					<dd class="cpRule">
+						<p>1. 起投金额：300元</p>
+						<p>2. 过担保公司担保、债权回购、担保人连带保证等方</p>
+						<p>3. 项目发生的风险进行全额赔付以保障投资人的利益</p>
+						<p>4. 机构为其推荐的每一个项目，按照一定比例向</p>
+					</dd>
+				</dl>
+			</div>
+			<!---正文结束--->
+		</div>
+		<script>
+			//优惠券点击收缩
+			$(document).ready(function() {
+				$("#firstpane dt.cpjt01").click(function() {
+					$(this).toggleClass("cpjt02")
+					$(this).next("dd.cpRule").slideToggle(300);
+				});
+			});
+		</script>
+	</body>
+
+</html>

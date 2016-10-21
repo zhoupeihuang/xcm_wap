@@ -1,0 +1,424 @@
+.maxBox{
+	text-align: center;
+}
+.baseBtn{
+	width: 15.2rem;
+	height: 2.2rem;
+	border: 0.025rem #fd5903 solid;
+	background-color:#fd5903;
+	color: #fff;
+	font-size: 0.85rem;
+	font-family: "微软雅黑",arial;
+	display: inline-block;
+}
+.unActive{
+	border: 0.025rem #ccc solid;
+	background-color:#ccc;
+}
+.disBtn{
+	background-color: #fecdb3;
+	border: 0.025rem #fecdb3 solid;
+}
+.baseBtn1{
+	width: 15.2rem;
+	height: 2.2rem;
+	border: 0.025rem #fff solid;
+	background-color:#fff;
+	color: #4d4d4d;
+	font-size: 0.85rem;
+	display: inline-block;
+}
+.baseBtn2{
+	width: 15.2rem;
+	height: 2.2rem;
+	border: 0.025rem #fff solid;
+	background-color:#fff;
+	color: #B3B3B3;
+	font-size: 0.85rem;
+	display: inline-block;
+}
+.baseLittleBtn{
+	width: 3.5rem;
+	height: 1.35rem;
+	border: 0.025rem #F6F6F6 solid;
+	background-color:#F6F6F6;
+	color: #808080;
+	font-size: 0.5rem;
+	font-family: "微软雅黑",arial;
+	display: inline-block;
+}
+/*公用的提示文字*/
+.baseInfo{
+	min-height: 0.5rem;
+	width: 14.5rem;
+	color: #B3B3B3;
+	font-size: 0.5rem;
+	display: inline-block;
+	margin: 0.825rem;
+}
+.baseInfo b{
+	color:#fd5903 ;
+}
+.baseInfo i{
+	height: 0.6rem;
+	width: 0.6rem;
+	background-image: url(../images/checked.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 0.6rem 1.2rem;
+	display: inline-block;
+	background-color: transparent;
+	top: 6px;
+    position: relative;
+    cursor: pointer;
+}
+.baseInfo i:before{
+	content: " ";
+	display: block; 
+	background-color: transparent;
+}
+.baseInfo i.checkedi{
+	background-position: 0px -29px;
+}
+.baseInfo2{
+	min-height: 0.5rem;
+	width: 14.5rem;
+	color: #B3B3B3;
+	font-size: 0.4rem;
+	text-align: center;
+	display: inline-block;
+	margin: 0.825rem;
+}
+
+.myErrorInfo{
+	position: fixed;
+	height: 1.35rem;
+	line-height: 1.35rem;
+	font-size: 0.6rem;
+	color:#FD5903;
+	background-color: #FECDB3;
+	z-index: 10000;
+	display: none;
+	top: 0px;
+	text-align: center;
+	margin-top: 0px;
+	width: 16rem;
+	
+}
+/*----------------------顶部栏--------------------------*/
+.baseNav {
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 0.0125rem #ccc solid;
+	background-color: white;
+	margin: 0 auto;
+	/*box-shadow: 1px 1px 5px #b3b3b3;*/
+}
+.baseNav>ul>li{
+	float: left;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	font-size: 0.85rem;
+}
+.baseNav>ul>li img{
+	height: 0.9rem;
+	width: auto;
+	cursor: pointer;
+}
+.baseNav>ul>li:nth-child(1){
+	width: 2rem;
+	text-align: center;
+}
+.baseNav>ul>li:nth-child(2){
+	width: 2rem;
+	color: #4D4D4D;
+}
+.baseNav>ul>li:nth-child(3){
+	width: 8rem;
+	color: #000;
+	text-align: center;
+}
+.baseNav>ul>li:nth-child(4){
+	width: 2rem;
+	color: #4D4D4D;
+}
+.baseNav>ul>li:nth-child(5){
+	width: 2rem;
+	text-align: center;
+}
+.baseNav>ul>li:nth-child(6){
+	width: 3rem;
+	text-align: right;
+	right: 0.6rem;
+	position: absolute;
+	color: #4D4D4D;
+}
+.navCenterBig{
+	 width:9rem !important;
+}
+.navOrgBt{
+	background-color:#fd5903;
+	color: #fff !important;
+}
+/*-------选项卡 只有两个的时候当前状态底部有橙色线-------*/
+.baseNav2Oge {
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 0.0125rem #ccc solid;
+	background-color: white;
+	/*box-shadow: 1px 1px 5px #b3b3b3;*/
+	position: relative;
+	margin: 0 auto;
+}
+.baseNav2Oge ul li{
+	float: left;
+	height: 2rem;
+	border-bottom:0.2rem solid  white;
+	color: #B3B3B3;
+	line-height: 2rem;
+	font-size: 0.85rem;
+	cursor: pointer;
+}
+.baseNav2Oge ul li:nth-child(1){
+	width: 8rem;
+	text-align: center;
+}
+.baseNav2Oge ul li:nth-child(2){
+	width: 8rem;
+	text-align: center;
+}
+.baseNav2Oge span{
+	display: inline-table;
+	top: 0.7rem;
+	right: 2.7rem;
+	position: absolute;
+}
+/*-------选项卡 只有两个的时候-------*/
+.rightLineNone{
+	 background-image:none !important;
+}
+.baseNav2 {
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 0.0125rem #ccc solid;
+	background-color: white;
+	/*box-shadow: 1px 1px 5px #b3b3b3;*/
+	border-top: 0.0125rem #ccc solid;
+	position: relative;
+	margin: 0 auto;
+}
+.baseNav2 ul li{
+	float: left;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	font-size: 0.85rem;
+}
+.baseNav2 ul li:nth-child(1){
+	width: 8rem;
+	text-align: center;
+	color: #4D4D4D;
+	background-image: url(../images/line1.gif);
+	background-size:0.05rem 1.25rem;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.baseNav2 ul li:nth-child(2){
+	width: 7.97rem;
+	text-align: center;
+	color: #4D4D4D;
+}
+.orderTopBox{
+    height: 2.2rem;
+  	width: 0.45rem;
+    position: relative;
+   	float: right;
+    right: 2.5rem;
+    background-image: url(../images/orderTopby.png);
+	background-position:0 0.82rem;
+	background-repeat: no-repeat;
+	background-size: 0.45rem 0.6rem;
+	cursor: pointer;
+}
+.orderBottomBox{
+    height: 2.2rem;
+  	width: 0.45rem;
+    position: relative;
+   	float: right;
+    right: 2.5rem;
+    background-image: url(../images/orderBottomby.png);
+	background-position:0 0.82rem;
+	background-repeat: no-repeat;
+	background-size: 0.45rem 0.6rem;
+	cursor: pointer;
+}
+
+.orderBox{
+    height: 2.2rem;
+  	width: 0.45rem;
+    position: relative;
+   	float: right;
+    right: 2.5rem;
+    background-image: url(../images/orderby.png);
+	background-position:0 0.82rem;
+	background-repeat: no-repeat;
+	background-size: 0.45rem 0.6rem;
+}
+
+.orderDesc{
+	background-image: url(../images/orderbyDesc.png);
+}
+.orderAsc{
+	background-image: url(../images/orderbyAsc.png);
+}
+.baseMain2{
+	width: 16rem;
+	min-height: 5rem;
+	top: 0px;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.baseMain2>ul>li{
+	float: left;
+	width: 16rem;
+	min-height: 7rem;
+}
+.baseMain2>ul>li:last-child{
+	display: none;
+}
+.bmActive{
+	color: #FD5903 !important;
+}
+/*-------选项卡 3个的时候-------*/
+.baseNav3 {
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 0.0125rem #ccc solid;
+	background-color: white;
+	/*box-shadow: 1px 1px 5px #b3b3b3;*/
+	border-top: 0.0125rem #ccc solid;
+	position: relative;
+	margin: 0 auto;
+}
+.baseNav3 ul li{
+	float: left;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.85rem;
+	width: 5.33rem;
+	text-align: center;
+	color:#B3B3B3;
+	cursor: pointer;
+	border-bottom: 0.2rem solid white;
+}
+.baseNav3 ul li:nth-child(3){
+	border-right: none;
+}
+.baseMain3{
+	width: 16rem;
+	min-height: 5rem;
+	top: 0px;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.baseMain3>ul>li{
+	float: left;
+	width: 16rem;
+	min-height: 7rem;
+	display: none;
+}
+.baseMain3>ul>li:first-child{
+	display: block;
+}
+/*-------橙色底部线-------*/
+.bmActiveOge{
+	color: #4D4D4D !important;
+	border-bottom:0.2rem solid  #FD5903 !important;
+}
+/*-------底部悬浮两按钮-------*/
+.baseNav4 {
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 0.0125rem #ccc solid;
+	background-color: white;
+	/*box-shadow: 1px 1px 5px #b3b3b3;*/
+	border-top: 0.0125rem #ccc solid;
+	margin: 0 auto;
+}
+.baseNav4 ul li{
+	float: left;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	font-size: 0.85rem;
+	position: relative;
+	cursor:pointer;
+}
+.baseNav4 ul li:nth-child(1){
+	width: 8rem;
+	text-align: center;
+	color: #4D4D4D;
+	background-image: url(../images/line1.gif);
+	background-size:0.05rem 1.25rem;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.baseNav4 ul li:nth-child(1) .dustbinIcon{
+	position: absolute;
+	top: 0.5rem;
+	left: 5rem;
+	
+}
+.baseNav4 ul li:nth-child(1) .orgRadioOn{
+	position: absolute;
+	top: 1rem;
+	left: 2.7rem;
+}
+.baseNav4 ul li:nth-child(1) b{
+	font-weight: normal;
+	position: absolute;
+	top: 0.12rem;
+	left: 3.8rem;
+}
+.baseNav4 ul li:nth-child(2){
+	width: 7.97rem;
+	text-align: center;
+	color: #4D4D4D;
+	vertical-align: middle;
+}
+.baseNav4 ul li:nth-child(2) b{
+	font-weight: normal;
+	position: absolute;
+	top: 0.12rem;
+	right: 2.8rem;
+}
+.baseNav4 ul li:nth-child(2) .dustbinIcon{
+	position: absolute;
+	top: 0.9rem;
+	right:4.8rem;
+	
+}
+/*-------点击体验金------*/
+.popMain{
+	width: 16rem;
+	height:7.7rem;
+	background-color: white;
+	display: none;
+	border-bottom: 0.0125rem #ccc solid;
+}
+.popMain>ul>li{
+	float: left;
+	width: 4.5rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	border: 0.05rem solid #FD5903;
+	background-color: #fff;
+	color: #FD5903;
+	margin: 0.8rem 0.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+.popMainActive{
+	background-color: #FD5903 !important;
+	color: #fff !important;
+}
