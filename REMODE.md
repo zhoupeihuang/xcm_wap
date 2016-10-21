@@ -1,4 +1,4 @@
-//![mahua](images/logo-220x90.png)
+![mahua](images/logo-220x90.png)
 前端架构摘要
 ========
 > # 文档参考
